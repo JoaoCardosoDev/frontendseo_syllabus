@@ -1,0 +1,22 @@
+.card {
+    background-color: rgb(240, 165, 54);
+    padding: 32px 64px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: rgb(255, 92, 17);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-right: 8px;
+}
+
+.card button:hover {
+    border-color: #f8f8f8;
+  }
