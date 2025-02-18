@@ -5,12 +5,12 @@ export interface User {
 }
 
 export interface Post {
-    id: number
-    owner: User
+    // id: number
+    // owner: User
     title: string
     body: string
-    votes: number
-    comments: Comment[]
+    // votes: number
+    // comments: Comment[]
 }
 
 export interface Comment {
